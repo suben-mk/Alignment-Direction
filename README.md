@@ -35,3 +35,7 @@ Alignment direction is computed from setting-out alignment data for tunnel surve
        4.4 Horizontal and Vertical Type : HorType(Chainage, Hor.Array name), **VerType(Chainage, Ver.Array name)**\
        4.5 Convert Azimuth from Degrees to Degree-Minute-Second (DD-MM-SS) : **DegtoDMSStr2(deg)**
      ![image](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/assets/89971741/d838b509-dd08-4f2d-a657-c739228f50ed)
+
+## Output
+[Export Alignment-CHOS to ENZ.xlsx](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/Python/Export%20Data/Export%20Alignment-CHOS%20to%20ENZ.xlsx)\
+[Export Alignment-ENZ to CHOS.xlsx](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/Python/Export%20Data/Export%20Alignment-ENZ%20to%20CHOS.xlsx)
