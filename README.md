@@ -26,7 +26,9 @@ Alignment direction is computed from setting-out alignment data for tunnel surve
 ### VBA
   1. Open file [**VBA - Alignment Direction & Survey Program Rev.09.xlsm**](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/VBA/VBA%20-%20Alignment%20Direction%20%26%20Survey%20Program%20Rev.09.xlsm)
   2. Add setting-out alignmet array sheet to **VBA - Alignment Direction & Survey Program Rev.09.xlsm** and set array by name manager
+     
      ![image](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/assets/89971741/85bc228a-6343-4c94-a9dc-a76b3b17181d)
+     
   3. Create a table for computation and prepare data of Chainage, Hor.Offset, Ver.Offset or 3d-coordinate (Easting, Northing, Elevation)
   4. VBA was created as **Function** below.\
        4.1 Known Chainage, Hor.Offset, Hor.Array name compute Easting, Northing, Azimuth : **Hor(Chainage, Hor.Offset, Hor.Array name, "E or N or W")** ***Note."E" = Easting, "N" = Northing, "W" = Azimuth***\
@@ -34,8 +36,12 @@ Alignment direction is computed from setting-out alignment data for tunnel surve
        4.3 Know Chainage, Ver.Array name compute Elevation : **Ver(Chainage, Ver.Array name)**\
        4.4 Horizontal and Vertical Type : HorType(Chainage, Hor.Array name), **VerType(Chainage, Ver.Array name)**\
        4.5 Convert Azimuth from Degrees to Degree-Minute-Second (DD-MM-SS) : **DegtoDMSStr2(deg)**
+     
      ![image](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/assets/89971741/d838b509-dd08-4f2d-a657-c739228f50ed)
 
 ## Output
-[Export Alignment-CHOS to ENZ.xlsx](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/Python/Export%20Data/Export%20Alignment-CHOS%20to%20ENZ.xlsx)\
-[Export Alignment-ENZ to CHOS.xlsx](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/Python/Export%20Data/Export%20Alignment-ENZ%20to%20CHOS.xlsx)
+### Python
+  [Export Alignment-CHOS to ENZ.xlsx](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/Python/Export%20Data/Export%20Alignment-CHOS%20to%20ENZ.xlsx)\
+  [Export Alignment-ENZ to CHOS.xlsx](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/Python/Export%20Data/Export%20Alignment-ENZ%20to%20CHOS.xlsx)
+### VBA
+  See VBA function at Main Pro.-CHOS to ENZ sheet and Main Pro.-ENZ to CHOS sheet [**VBA - Alignment Direction & Survey Program Rev.09.xlsm**](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/VBA/VBA%20-%20Alignment%20Direction%20%26%20Survey%20Program%20Rev.09.xlsm)
