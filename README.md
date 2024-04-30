@@ -49,4 +49,4 @@
   [Export Alignment-ENZ to CHOS.xlsx](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/Python/Export%20Data/Export%20Alignment-ENZ%20to%20CHOS.xlsx)
 ### VBA
   [**VBA - Alignment Direction & Survey Program Rev.09.xlsm**](https://github.com/suben-mk/Alignment-Direction-for-Metro-Line/blob/main/VBA/VBA%20-%20Alignment%20Direction%20%26%20Survey%20Program%20Rev.09.xlsm)\
- สามารถดู VBA function ที่ Main Pro.-CHOS to ENZ sheet c]t Main Pro.-ENZ to CHOS sheet 
+ สามารถดู VBA function ที่ Main Pro.-CHOS to ENZ sheet และ Main Pro.-ENZ to CHOS sheet 
